@@ -1,11 +1,17 @@
 import './bootstrap';
 import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
+import AppLayout from "@/Layouts/AppLayout.vue";
 
 createInertiaApp({
+    title: (title) => {
+        return title ? `${title} | DevPuzzle` : 'DevPuzzle: A daily puzzle game for developers.'
+    },
     resolve: name => {
         const pages = import.meta.glob('./Pages/**/*.vue', { eager: true })
-        return pages[`./Pages/${name}.vue`]
+        let page = pages[`./Pages/${name}.vue`]
+        page.default.layout = page.default.layout || AppLayout // sets the default layout for the pages
+        return page
     },
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
