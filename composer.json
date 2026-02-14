@@ -2,7 +2,7 @@
     "$schema": "https://getcomposer.org/schema.json",
     "name": "devpuzzle/devpuzzle",
     "type": "project",
-    "description": "A daily puzzle game for developers.",
+    "description": "A daily challenge for developers.",
     "keywords": [
         "developers",
         "development",

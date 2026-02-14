@@ -1,3 +1,3 @@
 # DevPuzzle
 
-A daily puzzle game for developers.
+A daily challenge for developers.

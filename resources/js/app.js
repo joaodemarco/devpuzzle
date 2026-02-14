@@ -5,7 +5,7 @@ import AppLayout from "@/Layouts/AppLayout.vue";
 
 createInertiaApp({
     title: (title) => {
-        return title ? `${title} | DevPuzzle` : 'DevPuzzle: A daily puzzle game for developers.'
+        return title ? `${title} | DevPuzzle` : 'DevPuzzle: A daily challenge for developers.'
     },
     resolve: name => {
         const pages = import.meta.glob('./Pages/**/*.vue', { eager: true })
