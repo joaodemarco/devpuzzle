@@ -9,8 +9,9 @@
         <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
         <meta name="apple-mobile-web-app-title" content="DevPuzzle" />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta name="color-scheme" content="light dark">
         <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
-        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#121213">
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a0a0a">
         @vite(['resources/js/app.js', 'resources/css/app.css'])
         @inertiaHead
     </head>
