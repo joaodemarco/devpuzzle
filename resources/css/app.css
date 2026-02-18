@@ -6,7 +6,17 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
 @theme {
     --font-sans: 'League Spartan', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --color-primary: #3C748C;
+
+    --color-muted: #64748B;
 }
