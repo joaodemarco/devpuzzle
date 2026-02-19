@@ -16,11 +16,11 @@ const timeUntilNextGame = useCountdownUntilNextGame(serverTime);
             class="border-b border-b-neutral-100 p-3 dark:border-b-neutral-900"
         >
             <nav class="flex items-center justify-between">
-                <Button as="Link" href="/" variant="secondary">
+                <Button :as="Link" href="/" variant="secondary">
                     &lt;dev puzzle /&gt;
                 </Button>
 
-                <Button as="Link" href="/about" variant="secondary">
+                <Button :as="Link" href="/about" variant="secondary">
                     about
                 </Button>
             </nav>

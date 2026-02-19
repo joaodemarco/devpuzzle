@@ -48,7 +48,7 @@ const isButton = computed(() => props.as === "button");
 <template>
     <component
         :is="as"
-        :href="as !== 'button' ? href : undefined"
+        v-bind="as !== 'button' ? { href } : {}"
         :type="isButton ? 'button' : undefined"
         :class="[classes, $attrs.class]"
         :disabled="isButton ? disabled : undefined"
