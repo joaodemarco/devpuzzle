@@ -37,7 +37,12 @@ class HandleInertiaRequests extends Middleware
     {
         return [
             ...parent::share($request),
-            //
+
+            // Used by AppLayout
+            'serverTime' => [
+                'now' => now('UTC')->timestamp,
+                'nextPuzzleAt' => now('UTC')->addDay()->startOfDay()->timestamp,
+            ]
         ];
     }
 }
