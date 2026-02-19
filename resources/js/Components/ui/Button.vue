@@ -10,6 +10,9 @@ const props = defineProps({
         type: [String, Object],
         default: "button",
     },
+    href: {
+        type: String,
+    },
     variant: {
         type: String,
         default: "primary",
@@ -45,7 +48,7 @@ const isButton = computed(() => props.as === "button");
 <template>
     <component
         :is="as"
-        :href="as != 'button' ? href : undefined"
+        :href="as !== 'button' ? href : undefined"
         :type="isButton ? 'button' : undefined"
         :class="[classes, $attrs.class]"
         :disabled="isButton ? disabled : undefined"

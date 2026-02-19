@@ -11,3 +11,12 @@ Route::get('/', function () {
         ],
     ]);
 });
+
+Route::get('/about', function() {
+    return Inertia::render('About', [
+    'serverTime' => [
+            'now' => now('UTC')->timestamp,
+            'nextPuzzleAt' => now('UTC')->addDay()->startOfDay()->timestamp,
+        ],
+    ]);
+});

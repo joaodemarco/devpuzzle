@@ -1,6 +1,7 @@
 <script setup>
 import { useCountdownUntilNextGame } from "@/Composables/useCountdownUntilNextGame.js";
 import Button from "@/Components/ui/Button.vue";
+import { Link } from "@inertiajs/vue3";
 
 const { serverTime } = defineProps({
     serverTime: Object,
@@ -19,23 +20,25 @@ const timeUntilNextGame = useCountdownUntilNextGame(serverTime);
                     &lt;dev puzzle /&gt;
                 </Button>
 
-                <Button variant="secondary">about</Button>
+                <Button as="Link" href="/about" variant="secondary">
+                    about
+                </Button>
             </nav>
         </header>
 
-        <main class="flex flex-col flex-1">
+        <main class="flex flex-col items-center justify-center flex-1 gap-3">
             <slot />
         </main>
 
         <footer
             class="flex flex-col md:flex-row items-center justify-center md:justify-between py-3 px-6"
         >
-            <span class="text-sm text-muted"
-                >devpuzzle &copy; {{ new Date().getFullYear() }}</span
-            >
+            <span class="text-sm text-muted">
+                devpuzzle &copy; {{ new Date().getFullYear() }}
+            </span>
 
             <span class="text-sm text-muted">
-                {{ timeUntilNextGame }} until next game (UTC)
+                {{ timeUntilNextGame }} until next game (UTC+0)
             </span>
         </footer>
     </div>
