@@ -1,9 +1,9 @@
 <template>
     <header>
-        <h1 class="text-6xl max-w-2xl mb-4">About</h1>
+        <h1 class="text-5xl md:text-6xl max-w-2xl mb-4">About</h1>
     </header>
     <section
-        class="flex flex-col space-y-4 text-lg text-neutral-700 dark:text-neutral-300 max-w-2xl mx-4"
+        class="flex flex-col space-y-4 text-base md:text-lg text-neutral-700 dark:text-neutral-300 max-w-2xl mx-4"
     >
         <p>
             <b>DevPuzzle</b> is a daily puzzle game made for developers. It's
