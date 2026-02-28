@@ -28,8 +28,10 @@ const baseClasses =
     "inline-flex items-center justify-center rounded-md transition-all focus-visible:outline-none focus-visible:ring active:opacity-80 md:active:opacity-100 disabled:opacity-50 disabled:pointer-events-none cursor-pointer select-none";
 
 const variants = {
+    primary:
+        "bg-primary-600 hover:bg-primary-700 dark:hover:bg-primary-500 text-white focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-neutral-950",
     secondary:
-        "hover:bg-neutral-100 dark:hover:bg-neutral-900 focus-visible:ring-neutral-200 dark:focus-visible:ring-neutral-100",
+        "hover:bg-neutral-100 dark:hover:bg-neutral-900 focus-visible:ring-2 focus-visible:ring-neutral-400 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-neutral-600 dark:focus-visible:ring-offset-neutral-950",
 };
 
 const sizes = {

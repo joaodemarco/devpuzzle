@@ -15,7 +15,9 @@
     --font-sans: 'League Spartan', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 
-    --color-primary: #3C748C;
+    --color-primary-500: #4D8299;
+    --color-primary-600: #3C748C;
+    --color-primary-700: #31647a;
 
     --color-muted: #64748B;
 }
