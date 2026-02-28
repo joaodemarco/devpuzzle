@@ -33,15 +33,15 @@ const variants = {
 };
 
 const sizes = {
-    sm: "text-sm py-1 px-2",
-    md: "py-px px-3",
-    lg: "text-lg py-2 px-4",
+    sm: "text-sm pt-1 pb-px px-2",
+    md: "pt-1 pb-px px-3",
+    lg: "text-lg pt-1.5 pb-1 px-4",
 };
 
 const classes = computed(() => [
     baseClasses,
     variants[props.variant],
-    sizes[props.size] ?? sizes.md,
+    sizes[props.size],
 ]);
 
 const isButton = computed(() => props.as === "button");
