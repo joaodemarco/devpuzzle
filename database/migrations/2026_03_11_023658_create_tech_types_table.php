@@ -1,29 +1,29 @@
-<?php
+    <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
+    use Illuminate\Database\Migrations\Migration;
+    use Illuminate\Database\Schema\Blueprint;
+    use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
+    return new class extends Migration
     {
-        Schema::create('tech_types', function (Blueprint $table) {
-            $table->id();
-            $table->string('name', 50);
-            $table->string('slug', 50);
-            $table->timestamps();
-        });
-    }
+        /**
+         * Run the migrations.
+         */
+        public function up(): void
+        {
+            Schema::create('tech_types', function (Blueprint $table) {
+                $table->id();
+                $table->string('name', 50);
+                $table->string('slug', 50)->unique();
+                $table->timestamps();
+            });
+        }
 
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::dropIfExists('tech_types');
-    }
-};
+        /**
+         * Reverse the migrations.
+         */
+        public function down(): void
+        {
+            Schema::dropIfExists('tech_types');
+        }
+    };

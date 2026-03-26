@@ -27,6 +27,7 @@ return new class extends Migration
             $table->id();
             $table->foreignid('tech_id')->constrained('techs');
             $table->foreignid('type_id')->constrained('tech_types');
+            $table->unique(['tech_id', 'type_id']);
         });
 
         // Define the tech area(s)
@@ -34,6 +35,7 @@ return new class extends Migration
             $table->id();
             $table->foreignid('tech_id')->constrained('techs');
             $table->foreignid('area_id')->constrained('tech_areas');
+            $table->unique(['tech_id', 'area_id']);
         });
     }
 
