@@ -19,7 +19,7 @@ return new class extends Migration
             $table->date('release_date');
             $table->string("creator_type");
             $table->string('hint');
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
         });
 
         // Define the tech type(s)

@@ -1,12 +1,15 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Tech extends Model
 {
+    // This table doesn't have an updated_at column
+    public const UPDATED_AT = null;
+
     protected $casts = [
         'open_source' => 'boolean',
         'release_date' => 'date',

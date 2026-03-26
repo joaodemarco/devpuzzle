@@ -15,7 +15,7 @@
                 $table->id();
                 $table->string('name', 50);
                 $table->string('slug', 50)->unique();
-                $table->timestamps();
+                $table->timestamp('created_at')->useCurrent();
             });
         }
 
