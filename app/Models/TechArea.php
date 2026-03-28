@@ -7,8 +7,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class TechArea extends Model
 {
-    // This table doesn't have an updated_at column
-    public const UPDATED_AT = null;
+    const UPDATED_AT = null;
 
     public function techs(): BelongsToMany
     {
