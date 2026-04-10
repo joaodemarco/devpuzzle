@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('techs', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 100);
+            $table->string('name', 50);
+            $table->string('slug', 50)->unique();
             $table->string('image_path');
             $table->boolean('open_source');
             $table->date('release_date');
