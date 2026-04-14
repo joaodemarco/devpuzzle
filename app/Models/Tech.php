@@ -19,12 +19,22 @@ class Tech extends Model
 
     public function types(): BelongsToMany
     {
-        return $this->belongsToMany(TechType::class, 'tech_type');
+        return $this->belongsToMany(
+            TechType::class,
+            'tech_type',
+            'tech_id',
+            'type_id'
+        );
     }
 
     public function areas(): BelongsToMany
     {
-        return $this->belongsToMany(TechArea::class, 'tech_area');
+        return $this->belongsToMany(
+            TechArea::class,
+            'tech_area',
+            'tech_id',
+            'area_id'
+        );
     }
 
     public function guessTheTechGames(): HasMany
