@@ -2,9 +2,7 @@
 
 namespace App\Console\Commands;
 
-use App\Models\GuessTheTechGame;
-use App\Models\Tech;
-use Carbon\Carbon;
+use App\Actions\Games\GuessTheTech\GenerateGuessTheTechGameAction;
 use Illuminate\Console\Attributes\Description;
 use Illuminate\Console\Attributes\Signature;
 use Illuminate\Console\Command;
@@ -19,21 +17,10 @@ class GenerateDailyGuessTheTechGame extends Command implements Isolatable
     /**
      * Execute the console command.
      */
-    public function handle(): void
+    public function handle(GenerateGuessTheTechGameAction $gameGenerationAction): void
     {
-        $recentTechsIds = GuessTheTechGame::query()
-            ->where('date', '>=', now('UTC')->subDays(14)->toDateString())
-            ->pluck('tech_id');
-
-        $newGameTechId = Tech::query()
-            ->whereNotIn('id', $recentTechsIds)
-            ->inRandomOrder()
-            ->value('id');
-
-        GuessTheTechGame::firstOrCreate(
-            ['date' => now('UTC')->toDateString()],
-            ['tech_id' => $newGameTechId]
-        );
+        $gameGenerationAction->execute();
+        $this->info('Daily game generated successfully.');
     }
 
     public function isolationLockExpiresAt(): DateTimeInterface|DateInterval
