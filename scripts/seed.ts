@@ -1,17 +1,17 @@
-import "dotenv/config";
-import { db } from "@/lib/db";
+import 'dotenv/config';
+import { db } from '@/lib/db';
 import {
   techs,
   techAreas,
   techArea,
   techTypes,
   techType,
-} from "@/lib/db/schema/techs";
-import techsData from "../data/techs.json";
-import techTypesData from "../data/tech_types.json";
-import techAreasData from "../data/tech_areas.json";
+} from '@/lib/db/schema/techs';
+import techsData from '../data/techs.json';
+import techTypesData from '../data/tech_types.json';
+import techAreasData from '../data/tech_areas.json';
 
-type CreatorType = "Individual" | "Small team" | "Company";
+type CreatorType = 'Individual' | 'Small team' | 'Company';
 
 type Tech = {
   name: string;
@@ -25,7 +25,7 @@ type Tech = {
 };
 
 async function seed() {
-  console.info("Starting seed...");
+  console.info('Starting seed...');
 
   const uniqueTypes = new Set<string>(techTypesData);
   const uniqueAreas = new Set<string>(techAreasData);
@@ -73,7 +73,7 @@ async function seed() {
     );
   }
 
-  console.info("Seed finished!");
+  console.info('Seed finished!');
 }
 
 async function insertTechTypes(uniqueTypes: Set<string>): Promise<void> {
@@ -119,7 +119,7 @@ async function insertTech(tech: Tech) {
 // We can use this simple slugify function here since the values
 // we will pass to it doesn't have special characters or edge cases
 function slugify(value: string): string {
-  return value.toLowerCase().replace(/\s+/g, "-");
+  return value.toLowerCase().replace(/\s+/g, '-');
 }
 
 async function main() {

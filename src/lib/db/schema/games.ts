@@ -1,9 +1,9 @@
-import { pgTable } from "drizzle-orm/pg-core";
-import { sql } from "drizzle-orm";
-import { techs } from "./techs";
-import { createdAt } from "./columns.helpers";
+import { pgTable } from 'drizzle-orm/pg-core';
+import { sql } from 'drizzle-orm';
+import { techs } from './techs';
+import { createdAt } from './columns.helpers';
 
-export const guessTheTechGames = pgTable("guess_the_tech_games", (t) => ({
+export const guessTheTechGames = pgTable('guess_the_tech_games', (t) => ({
   id: t
     .uuid()
     .primaryKey()
@@ -16,7 +16,7 @@ export const guessTheTechGames = pgTable("guess_the_tech_games", (t) => ({
   ...createdAt(),
 }));
 
-export const guessTheTechResults = pgTable("guess_the_tech_results", (t) => ({
+export const guessTheTechResults = pgTable('guess_the_tech_results', (t) => ({
   id: t
     .uuid()
     .primaryKey()
