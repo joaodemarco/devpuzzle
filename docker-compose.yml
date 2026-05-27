@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: devpuzzle
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: devpuzzle
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+volumes:
+  postgres_data:
