@@ -2,9 +2,9 @@ services:
   postgres:
     image: postgres
     environment:
-      POSTGRES_USER: devpuzzle
-      POSTGRES_PASSWORD: 123456
-      POSTGRES_DB: devpuzzle
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
     ports:
       - "5432:5432"
     volumes:
