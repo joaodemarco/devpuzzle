@@ -1,2 +1,2 @@
-export * from "./data";
+export * from "./techs";
 export * from "./games";

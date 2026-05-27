@@ -1,6 +1,6 @@
 import { pgTable } from "drizzle-orm/pg-core";
 import { sql } from "drizzle-orm";
-import { techs } from "./data";
+import { techs } from "./techs";
 import { createdAt } from "./columns.helpers";
 
 export const guessTheTechGames = pgTable("guess_the_tech_games", (t) => ({
