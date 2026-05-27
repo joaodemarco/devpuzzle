@@ -1,0 +1,742 @@
+[
+  {
+    "name": "C",
+    "slug": "c",
+    "types": ["Programming language"],
+    "areas": ["Systems"],
+    "openSource": true,
+    "releaseYear": 1972,
+    "creatorType": "Individual",
+    "hint": "A low-level language often used for system programming."
+  },
+  {
+    "name": "C++",
+    "slug": "cpp",
+    "types": ["Programming language"],
+    "areas": ["Systems", "Games"],
+    "openSource": true,
+    "releaseYear": 1985,
+    "creatorType": "Individual",
+    "hint": "An extension of a popular low-level language that adds object-oriented features."
+  },
+  {
+    "name": "C#",
+    "slug": "csharp",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Games"],
+    "openSource": true,
+    "releaseYear": 2000,
+    "creatorType": "Company",
+    "hint": "A modern language commonly used with the .NET platform."
+  },
+  {
+    "name": "Rust",
+    "slug": "rust",
+    "types": ["Programming language"],
+    "areas": ["Systems"],
+    "openSource": true,
+    "releaseYear": 2012,
+    "creatorType": "Individual",
+    "hint": "A systems language focused on safety and performance."
+  },
+  {
+    "name": "Zig",
+    "slug": "zig",
+    "types": ["Programming language"],
+    "areas": ["Systems"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Individual",
+    "hint": "A low-level language designed for simplicity and control."
+  },
+  {
+    "name": "Haskell",
+    "slug": "haskell",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Security"],
+    "openSource": true,
+    "releaseYear": 1990,
+    "creatorType": "Small team",
+    "hint": "A purely functional programming language."
+  },
+  {
+    "name": "Go",
+    "slug": "go",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Infrastructure"],
+    "openSource": true,
+    "releaseYear": 2009,
+    "creatorType": "Company",
+    "hint": "A compiled language known for simplicity and concurrency."
+  },
+  {
+    "name": "Java",
+    "slug": "java",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Mobile"],
+    "openSource": true,
+    "releaseYear": 1996,
+    "creatorType": "Company",
+    "hint": "A widely used language for backend and microservices."
+  },
+  {
+    "name": "Python",
+    "slug": "python",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Data", "AI"],
+    "openSource": true,
+    "releaseYear": 1991,
+    "creatorType": "Individual",
+    "hint": "A popular language known for readability, simplicity and versatility."
+  },
+  {
+    "name": "JavaScript",
+    "slug": "javascript",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Frontend"],
+    "openSource": true,
+    "releaseYear": 1995,
+    "creatorType": "Individual",
+    "hint": "One of the most popular programming languages nowadays."
+  },
+  {
+    "name": "PHP",
+    "slug": "php",
+    "types": ["Programming language"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 1995,
+    "creatorType": "Individual",
+    "hint": "A scripting language mainly used for server-side web applications."
+  },
+  {
+    "name": "Ruby",
+    "slug": "ruby",
+    "types": ["Programming language"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 1995,
+    "creatorType": "Individual",
+    "hint": "A dynamic language known for its elegant syntax."
+  },
+  {
+    "name": "Lua",
+    "slug": "lua",
+    "types": ["Programming language"],
+    "areas": ["Games", "Scripting"],
+    "openSource": true,
+    "releaseYear": 1993,
+    "creatorType": "Small team",
+    "hint": "A lightweight scripting language."
+  },
+  {
+    "name": "Elixir",
+    "slug": "elixir",
+    "types": ["Programming language"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2012,
+    "creatorType": "Individual",
+    "hint": "A functional language built for scalable and fault-tolerant systems."
+  },
+  {
+    "name": "Swift",
+    "slug": "swift",
+    "types": ["Programming language"],
+    "areas": ["Mobile"],
+    "openSource": true,
+    "releaseYear": 2014,
+    "creatorType": "Company",
+    "hint": "A language used for developing applications on Apple platforms."
+  },
+  {
+    "name": "Kotlin",
+    "slug": "kotlin",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Mobile"],
+    "openSource": true,
+    "releaseYear": 2012,
+    "creatorType": "Company",
+    "hint": "A modern language used for Android development."
+  },
+  {
+    "name": "Dart",
+    "slug": "dart",
+    "types": ["Programming language"],
+    "areas": ["Mobile"],
+    "openSource": true,
+    "releaseYear": 2011,
+    "creatorType": "Company",
+    "hint": "A language used to build cross-platform applications."
+  },
+  {
+    "name": "TypeScript",
+    "slug": "typescript",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Frontend"],
+    "openSource": true,
+    "releaseYear": 2012,
+    "creatorType": "Company",
+    "hint": "A typed superset of a very popular dynamic language."
+  },
+  {
+    "name": "R",
+    "slug": "r",
+    "types": ["Programming language"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 1993,
+    "creatorType": "Small team",
+    "hint": "A language focused on statistics and data analysis."
+  },
+  {
+    "name": "Julia",
+    "slug": "julia",
+    "types": ["Programming language"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2012,
+    "creatorType": "Small team",
+    "hint": "A language designed for high-performance numerical computing."
+  },
+  {
+    "name": "Scala",
+    "slug": "scala",
+    "types": ["Programming language"],
+    "areas": ["Backend", "Data"],
+    "openSource": true,
+    "releaseYear": 2003,
+    "creatorType": "Individual",
+    "hint": "A language that combines object-oriented and functional programming."
+  },
+  {
+    "name": "Bash",
+    "slug": "bash",
+    "types": ["Programming language"],
+    "areas": ["Scripting", "Infrastructure"],
+    "openSource": true,
+    "releaseYear": 1989,
+    "creatorType": "Individual",
+    "hint": "A command-line shell and scripting language common in Unix-like systems."
+  },
+  {
+    "name": "Node.js",
+    "slug": "nodejs",
+    "types": ["Runtime"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2009,
+    "creatorType": "Individual",
+    "hint": "A runtime that allows JavaScript to run outside the browser."
+  },
+  {
+    "name": "Deno",
+    "slug": "deno",
+    "types": ["Runtime"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2018,
+    "creatorType": "Individual",
+    "hint": "A runtime for JavaScript and TypeScript with built-in tooling."
+  },
+  {
+    "name": "React",
+    "slug": "react",
+    "types": ["Library"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2013,
+    "creatorType": "Company",
+    "hint": "A library for building user interfaces with reusable components."
+  },
+  {
+    "name": "jQuery",
+    "slug": "jquery",
+    "types": ["Library"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2006,
+    "creatorType": "Individual",
+    "hint": "A library that simplifies DOM manipulation."
+  },
+  {
+    "name": "Next.js",
+    "slug": "nextjs",
+    "types": ["Framework"],
+    "areas": ["Backend", "Frontend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Company",
+    "hint": "A framework for building web applications with server-side rendering."
+  },
+  {
+    "name": "Nuxt.js",
+    "slug": "nuxtjs",
+    "types": ["Framework"],
+    "areas": ["Backend", "Frontend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Small team",
+    "hint": "A framework for building applications on top of Vue.js."
+  },
+  {
+    "name": "Express",
+    "slug": "express",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2010,
+    "creatorType": "Individual",
+    "hint": "A minimal web framework for building APIs."
+  },
+  {
+    "name": "Fastify",
+    "slug": "fastify",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Small team",
+    "hint": "A fast and low-overhead web framework for Node.js."
+  },
+  {
+    "name": "NestJS",
+    "slug": "nestjs",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2017,
+    "creatorType": "Individual",
+    "hint": "A structured framework for building server-side applications in Node.js."
+  },
+  {
+    "name": "ASP.NET Core",
+    "slug": "aspnet_core",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Company",
+    "hint": "A framework for building modern web applications on the .NET platform."
+  },
+  {
+    "name": "Spring Boot",
+    "slug": "spring_boot",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2014,
+    "creatorType": "Company",
+    "hint": "A framework that simplifies building Java applications."
+  },
+  {
+    "name": "Laravel",
+    "slug": "laravel",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2011,
+    "creatorType": "Individual",
+    "hint": "A web framework for building applications with PHP."
+  },
+  {
+    "name": "Django",
+    "slug": "django",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2005,
+    "creatorType": "Small team",
+    "hint": "A full-featured web framework for Python."
+  },
+  {
+    "name": "Flask",
+    "slug": "flask",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2010,
+    "creatorType": "Individual",
+    "hint": "A lightweight web microframework with Python."
+  },
+  {
+    "name": "FastAPI",
+    "slug": "fast_api",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2018,
+    "creatorType": "Individual",
+    "hint": "A modern and fast framework for building APIs with Python."
+  },
+  {
+    "name": "Ruby on Rails",
+    "slug": "ruby_on_rails",
+    "types": ["Framework"],
+    "areas": ["Backend"],
+    "openSource": true,
+    "releaseYear": 2004,
+    "creatorType": "Individual",
+    "hint": "A framework that emphasizes convention over configuration."
+  },
+  {
+    "name": "Angular",
+    "slug": "angular",
+    "types": ["Framework"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Company",
+    "hint": "A full-featured framework for building web applications."
+  },
+  {
+    "name": "Vue.js",
+    "slug": "vuejs",
+    "types": ["Framework"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2013,
+    "creatorType": "Individual",
+    "hint": "A progressive framework for building user interfaces."
+  },
+  {
+    "name": "Svelte",
+    "slug": "svelte",
+    "types": ["Framework"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2016,
+    "creatorType": "Individual",
+    "hint": "A framework that compiles components into efficient JavaScript."
+  },
+  {
+    "name": "Flutter",
+    "slug": "flutter",
+    "types": ["Framework"],
+    "areas": ["Mobile", "Frontend"],
+    "openSource": true,
+    "releaseYear": 2017,
+    "creatorType": "Company",
+    "hint": "A UI toolkit for building natively compiled cross-platform applications from a single codebase."
+  },
+  {
+    "name": "React Native",
+    "slug": "react_native",
+    "types": ["Framework"],
+    "areas": ["Mobile"],
+    "openSource": true,
+    "releaseYear": 2015,
+    "creatorType": "Company",
+    "hint": "A framework that lets you build native mobile apps using JavaScript."
+  },
+  {
+    "name": "HTML",
+    "slug": "html",
+    "types": ["Markup language"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 1991,
+    "creatorType": "Individual",
+    "hint": "A markup language used to structure web pages."
+  },
+  {
+    "name": "CSS",
+    "slug": "css",
+    "types": ["Style sheet language"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 1996,
+    "creatorType": "Small team",
+    "hint": "A language used to define the visual presentation and styling of web pages."
+  },
+  {
+    "name": "XML",
+    "slug": "xml",
+    "types": ["Markup language"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 1998,
+    "creatorType": "Company",
+    "hint": "A markup language designed to store and transport data."
+  },
+  {
+    "name": "Markdown",
+    "slug": "markdown",
+    "types": ["Markup language"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2004,
+    "creatorType": "Individual",
+    "hint": "A lightweight syntax for formatting text."
+  },
+  {
+    "name": "GraphQL",
+    "slug": "graphql",
+    "types": ["Query language"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2015,
+    "creatorType": "Company",
+    "hint": "A query language for APIs that lets clients request exactly the data they need."
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 1996,
+    "creatorType": "Small team",
+    "hint": "An advanced open-source relational database."
+  },
+  {
+    "name": "MySQL",
+    "slug": "mysql",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 1995,
+    "creatorType": "Company",
+    "hint": "A widely used relational database system."
+  },
+  {
+    "name": "SQLite",
+    "slug": "sqlite",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2000,
+    "creatorType": "Individual",
+    "hint": "A lightweight database stored in a single file."
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "slug": "sqlserver",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": false,
+    "releaseYear": 1989,
+    "creatorType": "Company",
+    "hint": "A relational database commonly used in enterprise systems."
+  },
+  {
+    "name": "Redis",
+    "slug": "redis",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2009,
+    "creatorType": "Individual",
+    "hint": "An in-memory data store often used for caching."
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2009,
+    "creatorType": "Company",
+    "hint": "A database that stores data in flexible documents."
+  },
+  {
+    "name": "MariaDB",
+    "slug": "mariadb",
+    "types": ["Database"],
+    "areas": ["Data"],
+    "openSource": true,
+    "releaseYear": 2009,
+    "creatorType": "Small team",
+    "hint": "A relational database that originated as a fork of another system."
+  },
+  {
+    "name": "Docker",
+    "slug": "docker",
+    "types": ["Tool"],
+    "areas": ["Infrastructure"],
+    "openSource": true,
+    "releaseYear": 2013,
+    "creatorType": "Individual",
+    "hint": "A tool used to run applications in containers."
+  },
+  {
+    "name": "Kubernetes",
+    "slug": "kubernetes",
+    "types": ["Tool"],
+    "areas": ["Infrastructure"],
+    "openSource": true,
+    "releaseYear": 2014,
+    "creatorType": "Company",
+    "hint": "A platform for automating the deployment, scaling, and management of containers."
+  },
+  {
+    "name": "Git",
+    "slug": "git",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": true,
+    "releaseYear": 2005,
+    "creatorType": "Individual",
+    "hint": "A distributed version control system for tracking changes in source code."
+  },
+  {
+    "name": "Vite",
+    "slug": "vite",
+    "types": ["Tool"],
+    "areas": ["Bundling"],
+    "openSource": true,
+    "releaseYear": 2020,
+    "creatorType": "Individual",
+    "hint": "A fast build tool for modern web development."
+  },
+  {
+    "name": "Webpack",
+    "slug": "webpack",
+    "types": ["Tool"],
+    "areas": ["Bundling"],
+    "openSource": true,
+    "releaseYear": 2014,
+    "creatorType": "Individual",
+    "hint": "A tool that bundles assets for web applications."
+  },
+  {
+    "name": "Tailwind CSS",
+    "slug": "tailwindcss",
+    "types": ["Framework"],
+    "areas": ["Frontend"],
+    "openSource": true,
+    "releaseYear": 2017,
+    "creatorType": "Individual",
+    "hint": "A utility-first CSS framework where styles are applied directly in the markup."
+  },
+  {
+    "name": "AWS",
+    "slug": "aws",
+    "types": ["Platform"],
+    "areas": ["Cloud"],
+    "openSource": false,
+    "releaseYear": 2006,
+    "creatorType": "Company",
+    "hint": "A cloud platform offering a wide range of services."
+  },
+  {
+    "name": "Azure",
+    "slug": "azure",
+    "types": ["Platform"],
+    "areas": ["Cloud"],
+    "openSource": false,
+    "releaseYear": 2010,
+    "creatorType": "Company",
+    "hint": "A cloud computing platform integrated with Microsoft services."
+  },
+  {
+    "name": "Google Cloud Platform",
+    "slug": "google_cloud",
+    "types": ["Platform"],
+    "areas": ["Cloud"],
+    "openSource": false,
+    "releaseYear": 2008,
+    "creatorType": "Company",
+    "hint": "A cloud platform providing infrastructure and services."
+  },
+  {
+    "name": "Linux",
+    "slug": "linux",
+    "types": ["Operating system"],
+    "areas": ["Infrastructure", "Systems"],
+    "openSource": true,
+    "releaseYear": 1991,
+    "creatorType": "Individual",
+    "hint": "An open-source operating system kernel that powers most of the world's servers."
+  },
+  {
+    "name": "Visual Studio Code",
+    "slug": "visual_studio_code",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": true,
+    "releaseYear": 2015,
+    "creatorType": "Company",
+    "hint": "A lightweight and extensible code editor."
+  },
+  {
+    "name": "Microsoft Visual Studio",
+    "slug": "visual_studio",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": false,
+    "releaseYear": 1997,
+    "creatorType": "Company",
+    "hint": "A full-featured integrated development environment."
+  },
+  {
+    "name": "Notepad++",
+    "slug": "notepad_pp",
+    "types": ["Tool"],
+    "areas": ["Development", "Data"],
+    "openSource": true,
+    "releaseYear": 2003,
+    "creatorType": "Individual",
+    "hint": "A simple and lightweight code editor for Windows."
+  },
+  {
+    "name": "IntelliJ IDEA",
+    "slug": "intellij",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": false,
+    "releaseYear": 2001,
+    "creatorType": "Company",
+    "hint": "A powerful IDE mainly used for JVM languages."
+  },
+  {
+    "name": "PyCharm",
+    "slug": "pycharm",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": false,
+    "releaseYear": 2010,
+    "creatorType": "Company",
+    "hint": "An IDE designed specifically for Python development."
+  },
+  {
+    "name": "Neovim",
+    "slug": "neovim",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": true,
+    "releaseYear": 2015,
+    "creatorType": "Individual",
+    "hint": "A modern version of a classic modal text editor."
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": false,
+    "releaseYear": 2023,
+    "creatorType": "Company",
+    "hint": "An IDE enhanced with AI features."
+  },
+  {
+    "name": "Sublime Text",
+    "slug": "sublime_text",
+    "types": ["Tool"],
+    "areas": ["Development"],
+    "openSource": false,
+    "releaseYear": 2008,
+    "creatorType": "Individual",
+    "hint": "A fast and minimalistic code editor."
+  },
+  {
+    "name": "Figma",
+    "slug": "figma",
+    "types": ["Tool"],
+    "areas": ["Design"],
+    "openSource": false,
+    "releaseYear": 2016,
+    "creatorType": "Company",
+    "hint": "A collaborative design tool that runs in the browser."
+  }
+]
