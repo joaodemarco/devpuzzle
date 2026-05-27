@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+
+# Next.js
+.next
+out
+
+# Build outputs
+dist
+build
+
+# Coverage
+coverage
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Package managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lockb
+
+# Generated files
+drizzle
+
+# Static assets and images
+public/**/*.svg
+public/**/*.png
+public/**/*.jpg
+public/**/*.jpeg
+public/**/*.gif
+public/**/*.ico
+
+# OS/editor files
+.DS_Store
