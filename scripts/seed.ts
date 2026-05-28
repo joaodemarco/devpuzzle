@@ -10,22 +10,22 @@ import {
 import techsData from '../data/techs.json';
 import techTypesData from '../data/tech_types.json';
 import techAreasData from '../data/tech_areas.json';
+import { TechCreatorType } from '@/lib/db/schema';
 
-type CreatorType = 'Individual' | 'Small team' | 'Company';
-
-type Tech = {
+// JSON tech structure
+type SeedTech = {
   name: string;
   slug: string;
   types: string[];
   areas: string[];
   openSource: boolean;
   releaseYear: number;
-  creatorType: CreatorType;
+  creatorType: TechCreatorType;
   hint: string;
 };
 
 async function seed() {
-  console.info('Starting seed...');
+  console.log('Starting seed...');
 
   const uniqueTypes = new Set<string>(techTypesData);
   const uniqueAreas = new Set<string>(techAreasData);
@@ -43,7 +43,7 @@ async function seed() {
 
   // Casting to satisfy Typescript
   // We control the JSON structure, so this cast is safe
-  const typedTechsData = techsData as Tech[];
+  const typedTechsData = techsData as SeedTech[];
 
   for (const tech of typedTechsData) {
     const [insertedTech] = await insertTech(tech);
@@ -100,7 +100,7 @@ async function insertTechAreas(uniqueAreas: Set<string>): Promise<void> {
     .onConflictDoNothing();
 }
 
-async function insertTech(tech: Tech) {
+async function insertTech(tech: SeedTech) {
   return await db
     .insert(techs)
     .values({
